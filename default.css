@@ -42,3 +42,16 @@ p#schedule {
   background-size: cover;
   height: 100vh;
 }
+
+.contact{
+  color: white;
+  text-align: right;
+  margin: 30px;
+  padding: 10px;
+}
+
+#phone-number{
+}
+
+#email{
+}
