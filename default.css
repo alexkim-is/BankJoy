@@ -45,3 +45,29 @@ body{
   background-size: cover;
   height: 100vh;
 }
+
+.contact {
+  font-family: serif;
+  font-size: 18px;
+  text-align: right;
+  padding: 30px;
+  color: white;
+}
+
+#phone-number {
+  margin: 0 10px;
+}
+
+#phone-number:hover {
+  color: rgba(60, 30, 100, 0.8);
+}
+
+#email {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#email:hover {
+  color: rgba(60, 30, 100, 0.8);
+}
