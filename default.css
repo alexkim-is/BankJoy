@@ -58,7 +58,9 @@ body{
   margin: 0 10px;
 }
 
-#phone-number:hover{color: rgba(60, 30, 100, 0.8);}
+#phone-number:hover {
+  color: rgba(60, 30, 100, 0.8);
+}
 
 #email {
   margin: 0 10px;
@@ -66,4 +68,6 @@ body{
   color: white;
 }
 
-#email:hover {color: rgba(60, 30, 100, 0.8);}
+#email:hover {
+  color: rgba(60, 30, 100, 0.8);
+}
