@@ -10,13 +10,13 @@ h2 {
   margin: 0;
 }
 
-p#demo {
+#demo {
   text-align: center;
   font-size: 13px;
   margin: 0;
 }
 
-div#bluebox {
+#bluebox {
   margin: auto;
   background-color: #6A95F2;
   height: 50px;
@@ -24,15 +24,11 @@ div#bluebox {
   border-radius: 30px;
 }
 
-p#schedule {
+#schedule {
   color: white;
   size: 20px;
   text-align: center;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}
-
-body{
-  margin: 0;
 }
