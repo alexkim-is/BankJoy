@@ -1,31 +1,39 @@
-
-h1 {
-  text-align: center;
-  font-size: 50px;
-  margin-top: 0;
-}
-
-h2 {
-  text-align: center;
-  font-size: 42px;
-}
-
 body{
   color: white;
   margin: 0;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1 {
+  transform: scale(0.6);
+}
+
+h2 {
+  font-size: 42px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #demo {
-  text-align: center;
-  font-size: 13px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #bluebox {
   margin: auto;
   background-color: #6A95F2;
+  font-size: 17px;
   height: 50px;
-  width: 30%;
-  border-radius: 30px;
+  width: 18%;
+  border-radius: 25px;
+}
+
+#bluebox:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 #schedule {
@@ -47,15 +55,15 @@ body{
 }
 
 .contact {
-  font-family: serif;
-  font-size: 18px;
+  font-size: 19px;
   text-align: right;
-  padding: 30px;
-  color: white;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 #phone-number {
-  margin: 0 10px;
+  font-weight: 800;
+  margin-right: 10px;
 }
 
 #phone-number:hover {
@@ -63,9 +71,7 @@ body{
 }
 
 #email {
-  margin: 0 10px;
-  text-decoration: none;
-  color: white;
+  font-weight: 800;
 }
 
 #email:hover {
@@ -95,7 +101,7 @@ body{
   margin-left: -120px;
 }
 #phone-center {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   z-index: 5;
 }
 
