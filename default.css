@@ -71,3 +71,53 @@ body{
 #email:hover {
   color: rgba(60, 30, 100, 0.8);
 }
+
+.phones{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 850px;
+}
+
+.phones img {
+  width: 333px;
+  position: relative;
+}
+
+#phone-left {
+  margin-right: -150px;
+  z-index: 0;
+}
+
+#phone-right {
+  z-index: 2;
+  margin-left: -120px;
+}
+#phone-center {
+  margin-bottom: 20px;
+  z-index: 5;
+}
+
+#left-shadow {
+  display: inline-block;
+  position: fixed;
+  margin-left: -50px;
+  margin-top: 20px;
+  width: 110px;
+  height: 650px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0));
+  border-radius: 30px;
+}
+
+#right-shadow {
+  display: inline-block;
+  position: fixed;
+  margin-left: -50px;
+  margin-top: 20px;
+  width: 110px;
+  height: 650px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0));
+  z-index: 4;
+  border-radius: 30px;
+}
